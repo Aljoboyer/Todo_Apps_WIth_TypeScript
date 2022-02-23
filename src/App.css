@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.main_title{
+    margin-top: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.create_section{
+    margin-top: 40px;
+    border: 2px solid tomato;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 
+    rgba(0, 0, 0, 0.09)  2px 0px 2px 1px, 
+    rgba(0, 0, 0, 0.09)  2px 0px 4px 2px, 
+    rgba(0, 0, 0, 0.09)  2px 0px 8px 4px, 
+    rgba(0, 0, 0, 0.09)  2px 0px 16px 8px, 
+    rgba(0, 0, 0, 0.09)  2px 0px 32px 16px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Buttons{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 2px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(0, 0, 0, 0.09) 0px 14px 4px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.formlabel{
+    color: rgb(2, 2, 87);
+    font-size: 18px;
+    padding-bottom: 7px;
 }
-
-.App-link {
-  color: #61dafb;
+.inputs{
+    margin-bottom: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add_title{
+    color: brown;
+}
+.text_area{
+    margin-bottom: 20px;
+}
+.view_section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.delete_buttons{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 2px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(0, 0, 0, 0.09) 0px 14px 4px;
+    display: block;
+    margin-top: 10px;
+}
+.todo_colam{
+    width: 80%;
+    border: solid rgb(104, 17, 1) 2px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 2px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(0, 0, 0, 0.09) 0px 14px 4px;
+    padding: 0px 0px 20px 0px;
 }
